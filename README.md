@@ -23,10 +23,10 @@ Set JAVAHOME system environment:
 
 export JAVA_HOME=$(update-alternatives --query javac | sed -n -e 's/Best: *\(.*\)\/bin\/javac/\1/p')
 
-Download the SDK tools only:
+Create folder and download the sdk tools:
 <pre>
-creat a folder and download the sdk tool.
-cd /root/android/sdk/ | 
+mkdir android/sdk
+cd /root/android/sdk/
 $:/root/android/sdk/ curl -O "copy the link of linux sdk tools zip file here from android downloads..."
 </pre>
 
