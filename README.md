@@ -1,15 +1,15 @@
 # NativeScript-Fullsetup
 
 Install required libraries:
-
+<pre>
 sudo apt-get install lib32z1 lib32ncurses5 libbz2-1.0:i386 libstdc++6:i386
-
+</pre>
 Note: the command above may fail, you can proceed to the next procedure.
 
 G++ Compiler:
-
+<pre>
 sudo apt-get install g++
-
+</pre>
 Install JDK 8:
 
 <pre>
@@ -42,9 +42,10 @@ export PATH=${PATH}:$ANDROID_HOME/platform-tools/adb
 </pre>
 
 Inside your /android/sdk/tools/bin run this command:
-
+<pre>
 sdkmanager "tools" "emulator" "platform-tools" "platforms;android-28" "build-tools;28.0.3" "extras;android;m2repository" "extras;google;m2repository"
-
+</pre>
 Check your configuration:
-
+<pre>
 tns doctor
+</pre>
