@@ -20,11 +20,12 @@ sudo apt-get install oracle-java8-installer
 </pre>
 
 Set JAVAHOME system environment:
-
+<pre>
 export JAVA_HOME=$(update-alternatives --query javac | sed -n -e 's/Best: *\(.*\)\/bin\/javac/\1/p')
-
+</pre>
 Create folder and download the sdk tools:
 <pre>
+
 mkdir android/sdk
 cd /root/android/sdk/
 $:/root/android/sdk/ curl -O "copy the link of linux sdk tools zip file here from android downloads..."
