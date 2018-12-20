@@ -56,7 +56,7 @@ Running in Android
 tns run android --bundle
 </pre>
 
-Important: you might experience <b> unexpected identifier app.js </b> in your first run if you forgot to add --bundle option.
+Important: you might experience <b> unexpected identifier app.js </b> if forgot to add --bundle option.
 
 # Troubleshooting
 
