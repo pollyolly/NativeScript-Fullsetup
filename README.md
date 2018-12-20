@@ -56,6 +56,8 @@ Running in Android
 tns run android --bundle
 </pre>
 
+Important: you might experience <b> unexpected identifier app.js </b> in your first run if you forgot to add --bundle option.
+
 # Troubleshooting
 
 Configure JVM heap size
