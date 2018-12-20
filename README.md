@@ -50,3 +50,22 @@ Check your configuration:
 <pre>
 tns doctor
 </pre>
+
+Running in Android
+<pre>
+tns run android --bundle
+</pre>
+
+# Troubleshooting
+
+Configure JVM heap size
+<pre>
+Environment Variables:
+
+Variable name: _JAVA_OPTIONS 
+Varialble value: -Xmx500m
+
+Or add <b> org.gradle.jvmargs=-Xmx500m </b>
+in C://Users/<your-name>/.gradle/gradle.properties
+  
+</pre>
