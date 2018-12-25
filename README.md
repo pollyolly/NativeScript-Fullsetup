@@ -71,3 +71,13 @@ Or add <b> org.gradle.jvmargs=-Xmx500m </b>
 in C://Users/<your-name>/.gradle/gradle.properties
   
 </pre>
+
+Configure SQLite database
+<pre>
+new CopyWebpackPlugin([
+    { from: { glob: "fonts/**" } },
+    { from: { glob: "**/*.+(jpg|png)" } },
+    { from: { glob: "assets/**/*" } },
+    {from: "**/*.db"} //Adding this line for the files ending with .db to be recognize
+                      //when using db.copyDatabase('sample.db')
+</pre>
