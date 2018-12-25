@@ -78,6 +78,6 @@ new CopyWebpackPlugin([
     { from: { glob: "fonts/**" } },
     { from: { glob: "**/*.+(jpg|png)" } },
     { from: { glob: "assets/**/*" } },
-    {from: "**/*.db"} //Adding this line for the files ending with .db to be recognize
+    {from: "**/*.db"} //Adding this line for the files ending with .db to recognize
                       //when using db.copyDatabase('sample.db')
 </pre>
