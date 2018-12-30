@@ -59,22 +59,20 @@ tns run android --bundle
 Important: you might experience <b> unexpected identifier app.js </b> if forgot to add --bundle option.
 
 Changing Application name
-<pre>
+
 In Android platform adding strings.xml file inside both values and values-v21.
-<code>
-" <?xml version="1.0" encoding="utf-8"?>
+```
+<?xml version="1.0" encoding="utf-8"?>
     <resources>
         <string name="app_name">VTodo</string>
         <string name="title_activity_kimera">VTodo</string>
-    </resources> "
- </code>
+    </resources>
+```
 In IOS platform adding a new line inside Info.plist:
-```xml
+```
   <key>CFBundleDisplayName</key>
   <string>VTodo</string>
 ```
-</pre>
-
 # Troubleshooting
 
 Configure JVM heap size on Windows
