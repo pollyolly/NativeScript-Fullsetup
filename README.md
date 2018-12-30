@@ -60,16 +60,13 @@ Important: you might experience <b> unexpected identifier app.js </b> if forgot 
 
 Changing Application name
 <pre>
-In Android adding strings.xml file inside both values and values-v21.
-
+In Android platform adding strings.xml file inside both values and values-v21.
 <?xml version="1.0" encoding="utf-8"?>
   *resources>
       *string name="app_name">VTodo</string*
       *string name="title_activity_kimera">VTodo</string*
   */resources>
-
-In IOS adding a new line inside Info.plist:
-
+In IOS platform adding a new line inside Info.plist:
   *key>CFBundleDisplayName</key*
   *string>VTodo</string*
   
