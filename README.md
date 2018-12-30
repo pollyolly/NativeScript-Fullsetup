@@ -60,7 +60,7 @@ Important: you might experience <b> unexpected identifier app.js </b> if forgot 
 
 # Troubleshooting
 
-Configure JVM heap size
+Configure JVM heap size on Windows
 <pre>
 Environment Variables:
 
