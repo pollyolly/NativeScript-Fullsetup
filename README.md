@@ -72,7 +72,7 @@ in C://Users/<your-name>/.gradle/gradle.properties
   
 </pre>
 
-Configure SQLite database
+Configure webpack.config.js for SQLite database (.db) files 
 <pre>
 new CopyWebpackPlugin([
     { from: { glob: "fonts/**" } },
