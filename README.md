@@ -69,10 +69,10 @@ In Android platform adding strings.xml file inside both values and values-v21.
     </resources> "
  </code>
 In IOS platform adding a new line inside Info.plist:
-<code>
-" <key>CFBundleDisplayName</key>
-  <string>VTodo</string> "
- </code>
+```xml
+  <key>CFBundleDisplayName</key>
+  <string>VTodo</string>
+```
 </pre>
 
 # Troubleshooting
