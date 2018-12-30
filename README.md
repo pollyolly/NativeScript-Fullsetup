@@ -63,15 +63,17 @@ Changing Application name
 In Android adding strings.xml file inside both values and values-v21.
 
 <?xml version="1.0" encoding="utf-8"?>
-  <resources>
-      <string name="app_name">VTodo</string>
-      <string name="title_activity_kimera">VTodo</string>
-  </resources>
+  *resources>
+      *string name="app_name">VTodo</string*
+      *string name="title_activity_kimera">VTodo</string*
+  */resources>
 
 In IOS adding a new line inside Info.plist:
 
-  <key>CFBundleDisplayName</key>
-	<string>VTodo</string>
+  *key>CFBundleDisplayName</key*
+  *string>VTodo</string*
+  
+  Note: replace * with <
 </pre>
 
 # Troubleshooting
