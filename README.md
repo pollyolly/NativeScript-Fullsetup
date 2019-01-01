@@ -56,6 +56,11 @@ Running in Android
 tns run android --bundle
 </pre>
 
+Creating ns project
+<pre>
+tns create <project-name> --vue
+</pre>
+
 Important: you might experience <b> unexpected identifier app.js </b> if forgot to add --bundle option.
 
 Changing Application name
