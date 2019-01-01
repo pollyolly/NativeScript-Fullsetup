@@ -56,7 +56,7 @@ Running in Android
 tns run android --bundle
 </pre>
 
-Creating ns project
+Creating nativescript-vue project
 ```
 tns create <project-name> --vue
 ```
