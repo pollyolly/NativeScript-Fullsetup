@@ -42,6 +42,8 @@ export PATH=${PATH}:$ANDROID_HOME/platform-tools
 export PATH=${PATH}:$ANDROID_HOME/platform-tools/adb
 </pre>
 
+Then restart your computer. It will run automatically these commands.
+
 Inside your /android/sdk/tools/bin run this command:
 <pre>
 sdkmanager "tools" "emulator" "platform-tools" "platforms;android-28" "build-tools;28.0.3" "extras;android;m2repository" "extras;google;m2repository"
