@@ -58,7 +58,7 @@ tns run android --bundle
 
 Creating nativescript-vue project
 ```
-tns create <project-name> --vue
+sudo tns create <project-name> --vue
 ```
 
 Important: you might experience <b> unexpected identifier app.js </b> if forgot to add --bundle option.
